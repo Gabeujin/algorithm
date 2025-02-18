@@ -1,9 +1,11 @@
+import common.BaseClass;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Test2_openChat {
+public class Test2_openChat extends BaseClass {
     //version 2
     public String[] solution(String[] record) {
         //uid - nickname 저장 map
